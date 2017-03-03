@@ -401,7 +401,7 @@ KSORT_INIT(mem_ars_hash, mem_alnreg_t, alnreg_hlt)
 KSORT_INIT(mem_ars_hash2, mem_alnreg_t, alnreg_hlt2)
 
 #define PATCH_MAX_R_BW 0.05f
-#define PATCH_MIN_SC_RATIO 0.90f
+#define PATCH_MIN_SC_RATIO 0.97f
 
 int mem_patch_reg(const mem_opt_t *opt, const bntseq_t *bns, const uint8_t *pac, uint8_t *query, const mem_alnreg_t *a, const mem_alnreg_t *b, int *_w)
 {
